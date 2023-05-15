@@ -1,5 +1,5 @@
 const Home = () => {
-    return <div className='w-screen bg-brand-500 h-40'>
+    return <div className='w-full h-screen bg-zinc-800'>
      ticket-ing
   </div>
 }
