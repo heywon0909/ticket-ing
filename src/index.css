@@ -2,18 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "NeoHeavy";
+  src: url("./assets/fonts/NanumSquareNeoTTF-eHv.woff");
+}
+
+@font-face {
+  font-family: "NeoExtra";
+  src: url("./assets/fonts/NanumSquareNeoTTF-dEb.woff");
+}
+
+@font-face {
+  font-family: "NeoBold";
+  src: url("./assets/fonts/NanumSquareNeoTTF-cBd.woff");
+}
+
+@font-face {
+  font-family: "NeoRegular";
+  src: url("./assets/fonts/NanumSquareNeoTTF-bRg.woff");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "NeoRegular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @apply flex flex-col items-center;
+}
+
+header {
+  font-family: "NeoExtra";
+}
+
+#root {
   @apply w-full;
 }
 
-
+section {
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
