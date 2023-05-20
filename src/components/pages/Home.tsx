@@ -5,7 +5,7 @@ const Home = () => {
       <div className="md:w-4/6 w-full relative top-10 h-full">
         <ul className="grid xl:grid-cols-3 md:grid-cols-2  gap-4 justify-center  items-center">
           {/* bg-gray-950 */}
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"
@@ -20,7 +20,7 @@ const Home = () => {
               </div>
             </div>
           </li>
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"
@@ -33,7 +33,7 @@ const Home = () => {
               </div>
             </div>
           </li>
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"
@@ -46,7 +46,7 @@ const Home = () => {
               </div>
             </div>
           </li>
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"
@@ -59,7 +59,7 @@ const Home = () => {
               </div>
             </div>
           </li>
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"
@@ -72,7 +72,7 @@ const Home = () => {
               </div>
             </div>
           </li>
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"
@@ -85,7 +85,7 @@ const Home = () => {
               </div>
             </div>
           </li>
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"
@@ -100,7 +100,7 @@ const Home = () => {
               </div>
             </div>
           </li>
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"
@@ -113,7 +113,7 @@ const Home = () => {
               </div>
             </div>
           </li>
-          <li className="lg:w-9/12 md:w-5/6 h-full hover:scale-105">
+          <li className="lg:w-9/12 md:w-5/6 h-full">
             <div className="relative h-full">
               <img
                 src="https://cdn.straightnews.co.kr/news/photo/202303/227894_129155_3657.jpeg"

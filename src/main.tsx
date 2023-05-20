@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './components/pages/Home.tsx';
+import Ticket from './components/pages/Ticket.tsx';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,8 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <App />,
     children: [
-    {index:true,path:'/',element:<Home/>}
+      { index: true, path: '/', element: <Home /> },
+      { path:'/ticket/:id',element:<Ticket/> }
     
     ]
   }
